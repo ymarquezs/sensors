@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/men_principal"
+        android:title="Principal"
+        android:icon="@drawable/ic_main"
+        app:showAsAction="always" > </item>
+    <item android:id="@+id/men_listasensores"
+        android:title="Lista de sensores"
+        android:icon="@drawable/ic_listasensores"
+        app:showAsAction="always" > </item>
+    <item android:id="@+id/men_lienzo"
+        android:title="Ejemplo de dibujo"
+        android:icon="@drawable/ic_lienzo"
+        app:showAsAction="always" > </item>
+    <item android:id="@+id/men_nivel"
+        android:title="Nivel"
+        android:icon="@drawable/ic_nivel"
+        app:showAsAction="always" > </item>
+
+</menu>
